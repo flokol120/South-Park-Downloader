@@ -178,7 +178,7 @@ public class Controller {
     public void onStop() {
         upperSplit.setDividerPositions(0.5);
         isDownloading = false;
-        t.stop();
+        //t.stop();
     }
 
     @Deprecated
